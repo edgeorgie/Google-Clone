@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +15,7 @@ header {
     height: 60px;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: flex-end;
 }
@@ -29,7 +29,21 @@ header nav .nav-right-section {
     list-style: none;
 }
 
-nav .nav-right-section {
-    margin-right: 10px;
+nav .nav-right-section a {
+    margin-right: 15px;
+    color: black;
+}
 
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+}
+
+nav .nav-right-section a img {
+    border-radius: 50%;
+    margin-left: 15px;
 }
